@@ -64,7 +64,7 @@ Your function should add the flavor to the front of the array and console.log th
 For example addFlavor("Rainbow Sherbert", originalFlavors) should return ["Rainbow Sherbert", "Banana Nut Fudge",..."Vanilla Burnt Almond"] */ 
 
 function addFlavor(){
-    originalFlavors.push("Rainbow Sherbert");
+    originalFlavors.unshift("Rainbow Sherbert");
     console.log(originalFlavors)
 }
 addFlavor();
