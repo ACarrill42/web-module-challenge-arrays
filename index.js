@@ -169,8 +169,6 @@ function filterByWord(array,string) {
 console.log(filterByWord(originalFlavors, "Chocolate"));
     
 
-}
-
 
 
 /* 🧁🍦🍨 STRETCH 🍨🍦🍫*/ 
