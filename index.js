@@ -100,6 +100,7 @@ For example, getFlavorByIndex(originalFlavors, 2) would return "Black Walnut", a
 function getFlavorByIndex(){
     originalFlavors.unshift("Rainbow Sherbert");
     console.log(originalFlavors[2]);
+    console.log(originalFlavors.indexOf("Rainbow Sherbert"));
   }
   getFlavorByIndex();
 
